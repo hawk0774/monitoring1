@@ -78,3 +78,10 @@ SLI = (summ_2xx_requests + summ_3xx_requests + summ_1xx_requests)/(summ_all_requ
 | **Zabbix**         | **Push** (по умолчанию) | Zabbix agent активно шлёт данные (active checks). Есть также pull-режим через Zabbix proxy/trapper items |
 | **VictoriaMetrics**| **Гибрид**          | Полностью поддерживает и Prometheus pull-scraping, и push-протоколы (InfluxDB, Graphite, OpenTSDB, Prometheus remote_write и т.д.) |
 | **Nagios**         | **Pull**            | Плагины выполняются на стороне сервера Nagios (NRPE — тоже по сути pull)    |
+
+![alt text](https://raw.githubusercontent.com/hawk0774/monitoring1/main/Screenshot_14.png)
+![alt text](https://raw.githubusercontent.com/hawk0774/monitoring1/main/Screenshot_1.png)
+![alt text](https://raw.githubusercontent.com/hawk0774/monitoring1/main/Screenshot_3.png)
+![alt text](https://raw.githubusercontent.com/hawk0774/monitoring1/main/Screenshot_4.png)
+![alt text](https://raw.githubusercontent.com/hawk0774/monitoring1/main/Screenshot_5.png)
+
